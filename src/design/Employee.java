@@ -1,5 +1,7 @@
 package design;
 
+import java.time.LocalDate;
+
 public interface Employee {
 	
 	/*Employee is an Interface which contains multiple unimplemented methods.Again few methods
@@ -10,7 +12,25 @@ public interface Employee {
 	
 	//employeeId() will return employee id.
 	public int employeeId();
-	
+
+	public int emp();
+
+	public void setEmp(int a);
+
+
+	public void setEmpName(String animal);
+
+	public String empName();
+
+
+	public void assignDep();
+
+	public int calcuSalary();
+
+
+	public void beLay();
+
+
 	//employeeName() will return employee name
 	public String employeeName();
 	
